@@ -1,9 +1,7 @@
+import requests
 import discord
 from discord.ext import commands
-import requests
 import random as ran
-
-print('bot')
 
 
 class Neko:
@@ -24,6 +22,7 @@ class Neko:
 class NekoBot(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
+        print('bot Cog is ready')
 
     @commands.command(pass_context=True)
     async def neko(self, ctx):

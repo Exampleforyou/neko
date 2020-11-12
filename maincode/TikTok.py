@@ -6,7 +6,7 @@ import random as ran
 print('TikTok')
 
 
-class TikTok(commands.Cog):
+class TikTok(commands.Cog, name='TikTok'):
     def __init__(self, bot):
         self.bot = bot
 
