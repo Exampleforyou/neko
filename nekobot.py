@@ -18,7 +18,8 @@ async def on_ready():  # When the bot is ready
 
 
 extensions = [
-    'maincode.OneNeko',  # Same name as it would be if you were importing it
+    'maincode.OneNeko',
+    'maincode.TikTok',   # Same name as it would be if you were importing it
 ]
 
 if __name__ == '__main__':  # Ensures this is the file being ran
